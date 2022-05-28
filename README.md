@@ -1,2 +1,3 @@
-# forks-collection
-Ansible Collection for Chia Blockchain and Forks
+# Ansible Collection - maveno_de.forks_collection
+
+Documentation for the collection.
