@@ -1,0 +1,6 @@
+[submodule "roles/forks_node"]
+	path = roles/forks_node
+	url = git@github.com:maveno-de/forks_node.git
+[submodule "plugins/modules"]
+	path = plugins/modules
+	url = git@github.com:maveno-de/maveno-ansible-modules.git
