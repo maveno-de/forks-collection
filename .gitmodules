@@ -7,3 +7,6 @@
 [submodule "roles/rootless_docker"]
 	path = roles/rootless_docker
 	url = https://github.com/maveno-de/rootless_docker.git
+[submodule "roles/forks_utilities"]
+	path = roles/forks_utilities
+	url = https://github.com/maveno-de/forks_utilities.git
