@@ -3,4 +3,4 @@
 	url = git@github.com:maveno-de/forks_node.git
 [submodule "plugins/modules"]
 	path = plugins/modules
-	url = it@github.com:maveno-de/ansible-modules.git
+	url = https://github.com/maveno-de/ansible-modules.git
