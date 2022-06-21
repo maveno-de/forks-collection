@@ -1,0 +1,19 @@
+- name: forks_log_analyzer
+  src: https://github.com/maveno-de/forks_log_analyzer.git
+  scm: git
+  version: dev
+
+- name: forks_node
+  src: https://github.com/maveno-de/forks_node.git
+  scm: git
+  version: dev
+
+- name: forks_utilities
+  src: https://github.com/maveno-de/forks_utilities.git
+  scm: git
+  version: dev
+
+- name: rootless_docker
+  src: https://github.com/maveno-de/rootless_docker.git
+  scm: git
+  version: dev
