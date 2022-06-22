@@ -1,15 +1,20 @@
 [submodule "plugins/modules"]
 	path = plugins/modules
 	url = https://github.com/maveno-de/ansible-modules.git
+	branch = main
 [submodule "roles/forks_node"]
 	path = roles/forks_node
 	url = https://github.com/maveno-de/forks_node.git
+	branch = main
 [submodule "roles/rootless_docker"]
 	path = roles/rootless_docker
 	url = https://github.com/maveno-de/rootless_docker.git
+	branch = main
 [submodule "roles/forks_utilities"]
 	path = roles/forks_utilities
 	url = https://github.com/maveno-de/forks_utilities.git
+	branch = main
 [submodule "roles/forks_log_analyzer"]
 	path = roles/forks_log_analyzer
 	url = https://github.com/maveno-de/forks_log_analyzer.git
+	branch = main
