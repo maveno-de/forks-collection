@@ -3,27 +3,27 @@
   scm: git
   version: dev
 
-- name: node
+- name: forks_node
   src: https://github.com/maveno-de/forks_node.git
   scm: git
   version: dev
 
-- name: utilities
+- name: forks_utilities
   src: https://github.com/maveno-de/forks_utilities.git
   scm: git
   version: dev
 
-- name: tunnel
+- name: forks_tunnel
   src: https://github.com/maveno-de/forks_tunnel.git
   scm: git
   version: dev
 
-- name: facts
+- name: forks_facts
   src: https://github.com/maveno-de/forks_facts.git
   scm: git
   version: dev
 
-- name: rootless_docker
+- name: forks_rootless_docker
   src: https://github.com/maveno-de/rootless_docker.git
   scm: git
   version: dev
