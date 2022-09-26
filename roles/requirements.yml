@@ -1,15 +1,25 @@
-- name: forks_log_analyzer
+- name: log_analyzer
   src: https://github.com/maveno-de/forks_log_analyzer.git
   scm: git
   version: dev
 
-- name: forks_node
+- name: node
   src: https://github.com/maveno-de/forks_node.git
   scm: git
   version: dev
 
-- name: forks_utilities
+- name: utilities
   src: https://github.com/maveno-de/forks_utilities.git
+  scm: git
+  version: dev
+
+- name: tunnel
+  src: https://github.com/maveno-de/forks_tunnel.git
+  scm: git
+  version: dev
+
+- name: facts
+  src: https://github.com/maveno-de/forks_facts.git
   scm: git
   version: dev
 

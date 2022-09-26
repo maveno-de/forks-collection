@@ -20,7 +20,7 @@ These variables need to be accessible by all roles of the collection. They shoul
 forksManagingLocalBinaryDirectory: "{{ forksManagingHomeDirectory|default('/root') }}/.local/bin"
 
 forksVariableDirectory: /var/local{% if forksVendorIdentifier is defined %}/{{ forksVendorIdentifier }}{% endif %}
-forksUserRootDirectory: /var/local{% if forksVendorIdentifier is defined %}/{{ forksVendorIdentifier }}{% endif %}/lib
+forksUsersRootDirectory: /var/local{% if forksVendorIdentifier is defined %}/{{ forksVendorIdentifier }}{% endif %}/lib
 
 forksPrefixDirectory: "/usr/local{% if forksVendorIdentifier is defined %}/{{ forksVendorIdentifier }}{% endif %}"
 forksSourceDirectory: "{{ forksPrefixDirectory }}/src"

@@ -18,3 +18,11 @@
 	path = roles/forks_log_analyzer
 	url = https://github.com/maveno-de/forks_log_analyzer.git
 	branch = main
+[submodule "roles/forks_tunnel"]
+	path = roles/forks_tunnel
+	url = git@github.com:maveno-de/forks_tunnel.git
+	branch = dev
+[submodule "roles/forks_facts"]
+	path = roles/forks_facts
+	url = git@github.com:maveno-de/forks_facts.git
+	branch = dev
