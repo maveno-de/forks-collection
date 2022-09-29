@@ -1,0 +1,20 @@
+[submodule "plugins/modules"]
+	path = plugins/modules
+	url = https://github.com/maveno-de/ansible-modules.git
+	branch = main
+[submodule "roles/node"]
+	path = roles/node
+	url = https://github.com/maveno-de/forks_node.git
+	branch = main
+[submodule "roles/utilities"]
+	path = roles/utilities
+	url = https://github.com/maveno-de/forks_utilities.git
+	branch = main
+[submodule "roles/tunnel"]
+	path = roles/tunnel
+	url = https://github.com/maveno-de/forks_tunnel.git
+	branch = dev
+[submodule "roles/facts"]
+	path = roles/facts
+	url = https://github.com/maveno-de/forks_facts.git
+	branch = dev
