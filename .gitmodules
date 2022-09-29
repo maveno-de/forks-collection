@@ -2,27 +2,27 @@
 	path = plugins/modules
 	url = https://github.com/maveno-de/ansible-modules.git
 	branch = main
-[submodule "roles/forks_node"]
-	path = roles/forks_node
+[submodule "roles/node"]
+	path = roles/node
 	url = https://github.com/maveno-de/forks_node.git
 	branch = main
 [submodule "roles/rootless_docker"]
 	path = roles/rootless_docker
 	url = https://github.com/maveno-de/rootless_docker.git
 	branch = main
-[submodule "roles/forks_utilities"]
-	path = roles/forks_utilities
+[submodule "roles/utilities"]
+	path = roles/utilities
 	url = https://github.com/maveno-de/forks_utilities.git
 	branch = main
-[submodule "roles/forks_log_analyzer"]
-	path = roles/forks_log_analyzer
+[submodule "roles/log_analyzer"]
+	path = roles/log_analyzer
 	url = https://github.com/maveno-de/forks_log_analyzer.git
 	branch = main
-[submodule "roles/forks_tunnel"]
-	path = roles/forks_tunnel
+[submodule "roles/tunnel"]
+	path = roles/tunnel
 	url = git@github.com:maveno-de/forks_tunnel.git
 	branch = dev
-[submodule "roles/forks_facts"]
-	path = roles/forks_facts
+[submodule "roles/facts"]
+	path = roles/facts
 	url = git@github.com:maveno-de/forks_facts.git
 	branch = dev
