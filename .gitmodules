@@ -1,15 +1,15 @@
 [submodule "plugins/modules"]
 	path = plugins/modules
 	url = https://github.com/maveno-de/ansible-modules.git
-	branch = main
+	branch = dev
 [submodule "roles/node"]
 	path = roles/node
 	url = https://github.com/maveno-de/forks_node.git
-	branch = main
+	branch = dev
 [submodule "roles/utilities"]
 	path = roles/utilities
 	url = https://github.com/maveno-de/forks_utilities.git
-	branch = main
+	branch = dev
 [submodule "roles/tunnel"]
 	path = roles/tunnel
 	url = https://github.com/maveno-de/forks_tunnel.git
