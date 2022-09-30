@@ -13,8 +13,8 @@
 [submodule "roles/tunnel"]
 	path = roles/tunnel
 	url = https://github.com/maveno-de/forks_tunnel.git
-	branch = dev
+	branch = main
 [submodule "roles/facts"]
 	path = roles/facts
 	url = https://github.com/maveno-de/forks_facts.git
-	branch = dev
+	branch = main
