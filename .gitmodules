@@ -18,3 +18,7 @@
 	path = roles/facts
 	url = https://github.com/maveno-de/forks_facts.git
 	branch = dev
+[submodule "roles/monero"]
+	path = roles/monero
+	url = https://github.com/maveno-de/forks_monero.git
+	branch = dev

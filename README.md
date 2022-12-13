@@ -67,7 +67,7 @@ forks:
       ansible_host: '<domainname 4>'
   vars:
 
-    ansible_user: "{{ forksManagingSystemUsername|default('root') }}"
+    ansible_user: "{{ forksManagingSystemUsername | default('root') }}"
 
     forksNodesConfiguration:
 
@@ -149,7 +149,7 @@ forksManagingSystemUsername: forks
 
 forksManagingHomeDirectory: >-
   {{ forksUsersRootDirectory }}/{{
-  forksManagingSystemUsername|default('root') }}
+  forksManagingSystemUsername | default('root') }}
 
 forksSettingsLookupTable:
   chia:

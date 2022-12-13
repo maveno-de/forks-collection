@@ -17,3 +17,9 @@
   src: https://github.com/maveno-de/forks_facts.git
   scm: git
   version: dev
+
+- name: monero
+  src: https://github.com/maveno-de/forks_monero.git
+  scm: git
+  version: dev
+  
