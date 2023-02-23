@@ -83,8 +83,6 @@ forks:
           harvester:
             farmer_peer:
               host: '<domainname 2>'
-            plot_directories: >-
-              {{ forksHostPlotDirectories['hostname1']['chia']|default([]) }}
 
       - identifier: '<node_id 2>'
         host: hostname2
@@ -119,8 +117,6 @@ forks:
           harvester:
             farmer_peer:
               host: '<domainname 2>'
-            plot_directories: >-
-              {{ forksHostPlotDirectories['hostname3']['chia']|default([]) }}
         certs: '<node_id 1>'
 
       - identifier: '<node_id 4>'
@@ -134,8 +130,6 @@ forks:
           harvester:
             farmer_peer:
               host: '<domainname 2>'
-            plot_directories: >-
-              {{ forksHostPlotDirectories['hostname4']['chia']|default([]) }}
         certs: '<node_id 1>'
 ```
 
@@ -181,6 +175,24 @@ forksHostPlotDirectories:
     chia:
       - /path/to/chia/plots/1
       - /path/to/chia/plots/2
+
+
+```
+
+## Example host variables
+
+```yaml
+
+forksHostPlotDirectories:
+  chia:
+    - /path/to/chia/plots/1
+    - /path/to/chia/plots/2
+    - /path/to/chia/plots/3
+  chives:
+    - /path/to/chives/plots/1
+    - /path/to/chives/plots/1
+
+
 ```
 
 ## Example playbook
