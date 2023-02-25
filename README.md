@@ -145,7 +145,7 @@ forksManagingHomeDirectory: >-
   {{ forksUsersRootDirectory }}/{{
   forksManagingSystemUsername | default('root') }}
 
-forksSettingsLookupTable:
+forksSettings:
   chia:
     backupHour: 3
     backupMinute: 0
@@ -315,4 +315,4 @@ NOTE: The tasks in this collection are not designed to run multiple tags at once
 
 \* Promtail is detected by presence of its configuration file at location /etc/promtail/config.yml
 
-\*\* <i>forksBackupDataDirectory</i> must be set for the host as well as <i>backupHour</i> and <i>backupMinute</i> in <i>forksSettingsLookupTable</i> for the corresponding fork type
+\*\* <i>forksBackupDataDirectory</i> must be set for the host as well as <i>backupHour</i> and <i>backupMinute</i> in <i>forksSettings</i> for the corresponding fork type
